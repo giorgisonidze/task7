@@ -5,7 +5,7 @@
 .menu{
     height: 900px;
     width: 1280px;
-    background-image: url(../images/Header1.svg), url(../images/Header2.svg);
+    background-image: url(../images/header1.svg), url(../images/header2.svg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
