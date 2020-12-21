@@ -1,0 +1,97 @@
+.flex{
+    display: flex;
+    text-decoration: none;
+    }
+.menu{
+    height: 900px;
+    width: 1280px;
+    background-image: url(../images/Header1.svg), url(../images/Header2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.flex h2{
+    font-size: 28px;
+    color: #D9F0FF;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 55px;
+    left: 60px;
+    font-weight: bold;
+}
+.flex p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;  
+    margin-left: 30px;
+    color: #D9F0FF;
+    font-weight: bold;
+}
+.menuright {
+    display: flex;
+    position: absolute;
+    top: 55px;
+    right: 140px;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 100px;
+    color: #FFFFFF;
+    margin: 300px 0 0 0;
+    font-family: 'Lato', sans-serif;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0 0 0;
+    position: relative;
+}
+.box1 p{
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.box2{
+    width: 1280px;
+    background-color: white;
+    clear: both;
+    position: relative;
+}
+.box2 h3{
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+.box2img{
+    display: flex;
+    position: absolute;
+    right: 0px;
+}
+.box21{
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    flex-wrap: wrap;
+}
+.box21 p{
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.box22{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 0 0;
+    position: relative;
+}
+.box22 p{
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
